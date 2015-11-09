@@ -116,6 +116,7 @@ def get_dl_images():
 		return jsonify(
 			{
 				'image_uris': [ (URI + i) for i in imgs ],
+                'total': len(imgs),
 				'file_types': count_file_types(imgs, ft_map)
 			}
 		)
