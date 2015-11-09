@@ -1,7 +1,0 @@
-ImageGrabber.egg-info/PKG-INFO
-ImageGrabber.egg-info/SOURCES.txt
-ImageGrabber.egg-info/dependency_links.txt
-ImageGrabber.egg-info/requires.txt
-ImageGrabber.egg-info/top_level.txt
-image_grabber/__init__.py
-image_grabber/__main__.py
