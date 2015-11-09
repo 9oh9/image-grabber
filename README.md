@@ -10,11 +10,36 @@ $ git clone git@github.com:9oh9/image-grabber.git;
 
 ```
 
-### Run
+Install package with python3 / pip
+```
+$ pip install virtualenv;
 
 ```
+
+create virtual env
+```
+$ virtualenv -p path/to/python3 venv;
+
+```
+
+Activate virtual env
+```
+$ source venv/bin/activate;
+
+```
+
+Install ImageGrabber package
+```
+$ pip install -e path/to/cloned/repo;
+
+```
+
+### Run
+
+With activated virtual env, run:
+```
 $ cd path/to/cloned/repo;
-$ venv/bin/python -m image_grabber;
+$ python -m image_grabber;
 
 ```
 

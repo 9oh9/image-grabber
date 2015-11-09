@@ -18,5 +18,5 @@ setup(
 
     author = "Brent Rotz",
     author_email = "rotzbrent@gmail.com",
-    description = "Deeplocal challenge",
+    description = "DL Challenge",
 )
